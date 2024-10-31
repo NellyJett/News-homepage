@@ -1,0 +1,22 @@
+.mainImage {
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Desktop background */
+.mainImage {
+    background-image: url('../assets/images/desktop.jpg');
+}
+
+/* Mobile background */
+@media (max-width: 640px) {
+    .mainImage {
+        background-image: url('../assets/images/mobile.jpg');
+    }
+}
+/* .imgClass{
+    background: url('../assets/images/image-retro-pcs.jpg')center/cover;
+} */
